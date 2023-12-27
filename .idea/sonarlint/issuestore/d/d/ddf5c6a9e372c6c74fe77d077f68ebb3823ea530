@@ -1,0 +1,9 @@
+
+l
+java:S1192"ODefine a constant instead of duplicating this literal "SELECT * FROM " 5 times.(é‘ß­8íŸœÉ1
+Y
+java:S2589."7Remove this expression which always evaluates to "true"(â°ş¢ÿÿÿÿÿ8¨ÛƒßÊ1
+Y
+java:S2589@"7Remove this expression which always evaluates to "true"(Òß³ªşÿÿÿÿ8©ÛƒßÊ1
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÏßíÀ8¤‹¢ßÊ1
