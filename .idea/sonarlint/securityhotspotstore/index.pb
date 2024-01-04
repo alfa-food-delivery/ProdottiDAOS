@@ -11,3 +11,9 @@ i
 9src/main/java/it/alfasoft/prodottidaos/CategorieDAOS.java,d\d\ddf5c6a9e372c6c74fe77d077f68ebb3823ea530
 h
 8src/test/java/it/alfasoft/prodottidaos/TestProdotto.java,b\e\beacab0708cdfa89e49ca40f24f806f7bae505c5
+h
+8src/main/java/it/alfasoft/prodottidaos/FoodProvider.java,e\b\ebcb9f5cb88b5af64168d42a0198cc712061b143
+q
+Asrc/main/java/it/alfasoft/prodottidaos/CategoriaFoodProvider.java,5\6\5694853f2f2983cee87ee7b4dd433ae63eef4f5d
+m
+=src/main/java/it/alfasoft/prodottidaos/FoodProvidersDAOS.java,9\4\94dfef09cf4c64924daed3d9ae3dc782a708af99

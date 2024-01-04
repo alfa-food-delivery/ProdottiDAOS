@@ -1,0 +1,9 @@
+
+q
+java:S1192"ODefine a constant instead of duplicating this literal "SELECT * FROM " 5 times.(Ξφύÿÿÿÿ8Ωά΅ΫΛ1
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ΚϊΠϊÿÿÿÿ8νά΅ΫΛ1
+_
+java:S1854t"=Remove this useless assignment to local variable "idProfile".(βοΫαϋÿÿÿÿ8χ‚«ΫΛ1
+P
+java:S1481t".Remove this unused "idProfile" local variable.(βοΫαϋÿÿÿÿ8χ‚«ΫΛ1

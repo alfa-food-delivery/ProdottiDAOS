@@ -7,15 +7,12 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class ProdottiDAOS extends DaoImpl<Prodotto,Integer> {
 
     public ProdottiDAOS(){
         cateogrieDAO.setTableName("food_delivery.categorie_prodotto");
     }
-
 
     CategorieDAOS cateogrieDAO = new CategorieDAOS();
     @Override
@@ -139,7 +136,7 @@ public class ProdottiDAOS extends DaoImpl<Prodotto,Integer> {
         return queryBuilder.toString();
     }
 
-
+    //TODO : Ricerca per categoria prodotto , Ricerca per categoria ristorante
     @Override
     public String getSearchByStringQuery(String searchText) {
         return "SELECT * FROM " + this.getTableName() + " x WHERE x.nome LIKE '%" + searchText + "%'"
@@ -169,6 +166,7 @@ public class ProdottiDAOS extends DaoImpl<Prodotto,Integer> {
         return qb.toString();
     }
 
+    //METODO/SERVIZIO AGGIUNTIVO : ASSEGNAZIONE CATEGORIA PRODOTTO
     public int assegnaCategoria(String s, Integer integer) throws DaoException {
         try {
             // Controlla se la categoria esiste:

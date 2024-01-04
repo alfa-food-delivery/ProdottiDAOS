@@ -1,8 +1,5 @@
 
 q
-java:S1192>"ODefine a constant instead of duplicating this literal "SELECT * FROM " 5 times.(Óâˆ¡ûÿÿÿÿ8¶â´áÊ1
-Q
-java:S1128
-"4Remove this unused import 'java.util.regex.Matcher'.(ëÅ›ã8Ğã´áÊ1
-V
-java:S1128"4Remove this unused import 'java.util.regex.Pattern'.(Ã•…Äúÿÿÿÿ8Ğã´áÊ1
+java:S1192;"ODefine a constant instead of duplicating this literal "SELECT * FROM " 5 times.(Óâˆ¡ûÿÿÿÿ8­‹©Í1
+U
+java:S1135‹"2Complete the task associated to this TODO comment.(ÿ®ñ³ùÿÿÿÿ8‡®‹©Í1

@@ -1,6 +1,7 @@
 package it.alfasoft.prodottidaos;
 
 import it.alfasoft.daosimple.IDto;
+import it.alfasoft.utentidaos.Utente;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -11,6 +12,7 @@ public class Prodotto implements IDto<Integer> {
     private String descrizione;
     private Double prezzo;
     private CategoriaProdotto categoriaProdotto;
+    //private Set<FoodProvider> ristoranti = new HashSet<>();
 
     public Prodotto(){ }
 
@@ -57,12 +59,23 @@ public class Prodotto implements IDto<Integer> {
     public String getDescrizione(){ return this.descrizione; }
     public Double getPrezzo(){ return this.prezzo;}
     public CategoriaProdotto getCategoriaProdotto(){ return this.categoriaProdotto;}
+
+    //public Set<FoodProvider> getRistoranti() { return ristoranti; }
+
     //SETTERS
     public void setIdProdotto(Integer idProdotto){ this.idProdotto = idProdotto; }
     public void setNomeProdotto(String nomeProdotto){ this.nomeProdotto = nomeProdotto; }
     public void setDescrizione(String descrizione){ this.descrizione = descrizione;}
     public void setPrezzo(Double prezzo){ this.prezzo = prezzo;}
     public void setCategoriaProdotto(CategoriaProdotto categoriaProdotto){ this.categoriaProdotto = categoriaProdotto;}
+
+    //FOOD PROVIDERS
+    //public void addRistorante(FoodProvider foodProvider){
+    //    this.getRistoranti().add(foodProvider);
+    //}
+    //public void removeRistorante(FoodProvider foodProvider){
+    //    this.getRistoranti().remove(foodProvider);
+    //}
 
     @Override
     public String toString(){
